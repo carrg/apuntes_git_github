@@ -110,3 +110,6 @@ y nos dará un código ese codigo lo vamos a meter en github en ssh keys
 vamos a configuracion en el github que esta en la parte del perfil, 
 seleccionamos SSH and GPG keys y ahí metemos el código rsa.
 Después debemos cambiar el directorio remote (git add remote origin URL) pegando en que nos brinca github con seguridad ssh
+
+GitHooks
+Hay 17 hooks, son acciones que activan un script para realizar alguna acción
