@@ -105,5 +105,8 @@ Una vez echo eso, vamos a github y le damos click en new pullrequest para que se
 
 Conectar SSH
 en consola usamos el comando: ssh-keygen
-Nos crea una carpeta oculta .ssh, entramos y dentro hacemos cat id_rsa.pub
+Nos crea una carpeta oculta .ssh, entramos y dentro hacemos type id_rsa.pub
 y nos dará un código ese codigo lo vamos a meter en github en ssh keys
+vamos a configuracion en el github que esta en la parte del perfil, 
+seleccionamos SSH and GPG keys y ahí metemos el código rsa.
+Después debemos cambiar el directorio remote (git add remote origin URL) pegando en que nos brinca github con seguridad ssh
