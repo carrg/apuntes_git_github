@@ -36,26 +36,26 @@ git remote add origin https://github.com/carrg/php-jwt.git
 git push -u origin master
 
 Curso Git y GitHub
-git config --global user.name "Car RG"				->	Establecer nombre de usuario en git
-git config --global user.name						->	Consultar el username actual
+git config --global user.name "Car RG"			->	Establecer nombre de usuario en git
+git config --global user.name				->	Consultar el username actual
 git config --global user.email "isc.carrg@gmail"	-> 	"
-git config --global color.ui true					-> 	Establecer que nos resalte el color
-git config --global --list							-> 	Listado de configuraciones
+git config --global color.ui true			-> 	Establecer que nos resalte el color
+git config --global --list				-> 	Listado de configuraciones
 
-git init											->	Marca el inicio del proyecto
-git status											-> 	Nos da el status de nuestro proyecto 	
-git add -A 											-> 	Agrega todos los archivos
-git commit -m "Comentario"							-> 
-git log 											-> 	
-git checkout iddelcommit 							-> 	Nos mueve al último commit
-git reset --soft iddelcommit						-> 	Solo quita el commit pero no toca el código
+git init						->	Marca el inicio del proyecto
+git status						-> 	Nos da el status de nuestro proyecto 	
+git add -A 						-> 	Agrega todos los archivos
+git commit -m "Comentario"				-> 
+git log 						-> 	
+git checkout iddelcommit 				-> 	Nos mueve al último commit
+git reset --soft iddelcommit				-> 	Solo quita el commit pero no toca el código
 git reset --mixed iddelcommit
-git reset --hard iddelcommit						-> 	Elimina todo, commit y código
-git log > commits.txt								->	Te crea un txt con los logs de los commits
-git branch											-> 	Lista las ramas
-git branch nombreRama								->	Crea una rama
-git commit --amend -m "Comentario"					-> Arreglamos el último commit
-git push origin master -f 							-> Fuerza a subir cambios aún que no haya nuevos
+git reset --hard iddelcommit				-> 	Elimina todo, commit y código
+git log > commits.txt					->	Te crea un txt con los logs de los commits
+git branch						-> 	Lista las ramas
+git branch nombreRama					->	Crea una rama
+git commit --amend -m "Comentario"			-> Arreglamos el último commit
+git push origin master -f 				-> Fuerza a subir cambios aún que no haya nuevos
 
 Fusiones
 Primero vamos a la rama que va a abserover, ejemplo master
