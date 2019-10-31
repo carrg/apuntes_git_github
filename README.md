@@ -17,6 +17,7 @@
 	- git add -A -> Agregar todos los cambios
 	- git add nombreFila - Agrega solo 1 cambio
 	- git commit -m 'Comentario del commit'
+	- git push -u origin master  ->  Ejemplo de subida a master
 	- git push origin rama-develop -> subir los cambios después del commit al repo remoto
 	- git pull origin rama -> Obtiene la última versión
 	- git diff -> cuales son loas diferencias en el archivos modificados localmente
